@@ -209,7 +209,7 @@ message.author.sendEmbed(embed)
 
 
 client.on("message", message => {
- if (message.content === "^help^^") {
+ if (message.content === "=help==") {
         message.react("😳")
                 message.react("👻")
   const embed = new Discord.RichEmbed() 
@@ -371,7 +371,7 @@ client.on('message', message => {
 
 
 
-lient.on('message', (message) => {
+client.on('message', (message) => {
     if (message.content.startsWith('=ban ')) {
       if(!message.member.hasPermission('BAN_MEMBERS')) return message.reply('هذا الخاصية للدارة فقط');
         var member= message.mentions.members.first();
