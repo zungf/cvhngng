@@ -42,7 +42,7 @@ client.on("message", message => {
              
      if(!message.channel.guild) return;
 
- if (message.content === "^^help") {
+ if (message.content === "=help") {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
@@ -68,7 +68,7 @@ client.on("message", message => {
 
 
 client.on('message', message => {
-   if (message.content.startsWith("^^خواطر")) {
+   if (message.content.startsWith("=خواطر")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -161,7 +161,7 @@ message.author.sendEmbed(embed)
 
 
 client.on("message", message => {
- if (message.content === "^help^^^") {
+ if (message.content === "=help===") {
         message.react("😮")
                 message.react("🤒")
   const embed = new Discord.RichEmbed() 
